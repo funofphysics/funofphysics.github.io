@@ -35,7 +35,7 @@ body {
     border-bottom: 1px solid #ddd;
     padding: 20px 0;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
 }
 .blog-post img {
     max-width: 150px;
@@ -147,7 +147,7 @@ body {
       max-width: 800px;
     }
     .blog-post {
-        flex-direction: column;
+        flex-direction: row;
     }
 }
 
@@ -156,6 +156,6 @@ body {
     max-width: 700px;
   }
   .blog-post {
-    flex-direction: column;
+    flex-direction: row;
    }
 }
