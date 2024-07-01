@@ -145,8 +145,13 @@ body {
     body {
       max-width: 800px;
     }
+
+    .blog-container {
+        padding: 10px;
+    }
+
     .blog-post {
-        
+        padding: 10px;
     }
 }
 
@@ -154,7 +159,12 @@ body {
   body {
     max-width: 700px;
   }
+
+  .blog-container {
+    padding: 10px;
+   }
+   
   .blog-post {
-    
+    padding: 10px;
    }
 }
