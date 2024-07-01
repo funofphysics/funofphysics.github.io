@@ -1,0 +1,154 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 20px;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 10px;
+    box-sizing: border-box;
+}
+.header, .footer {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #ffffff;
+    color: rgb(89, 35, 35);
+    text-align: center;
+    padding: 20px;
+    font-weight: bold;
+}
+.header h1 {
+    margin: 0;
+}
+.footer p {
+    margin: 5px 0;
+    font-size: 14px;
+}
+.blog-container {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.blog-post {
+    border-bottom: 1px solid #ddd;
+    padding: 20px 0;
+    display: flex;
+}
+.blog-post img {
+    max-width: 150px;
+    max-height: 150px;
+    margin-right: 20px;
+}
+.blog-post h2 {
+    margin: 0;
+    font-size: 24px;
+}
+.blog-post p {
+    margin: 5px 0;
+    color: #555;
+}
+.blog-post .date {
+    font-size: 14px;
+    color: #aaa;
+}
+
+/* Basic styles for the sidebar */
+.sidebar {
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    top: 0;
+    left: -250px; /* Start offscreen */
+    background-color: #f1ebeb;
+    padding-top: 20px;
+    transition: left 0.3s ease;
+}
+
+.sidebar h2 {
+    color: rgb(198, 29, 29);
+    text-align: center;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    padding: 10px;
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 2px 5px 10px 14px;
+    box-shadow: 0 0 8px;
+}
+
+.sidebar ul li a {
+    text-decoration: none;
+    color: rgb(61, 56, 56);
+    display: block;
+}
+
+.sidebar ul li a:hover {
+    transform: scale(1.2);
+}
+
+.close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: none;
+    border: none;
+    font-size: 24px;
+    color: rgb(76, 6, 6);
+    cursor: pointer;
+}
+
+.open-btn {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    background: #ffffff;
+    color: rgb(99, 93, 93);
+    border: none;
+    padding: 2px 2px;
+    cursor: pointer;
+    border: solid 0.5px rgba(130, 123, 123, 0.1);
+    border-radius: 2px;
+}
+
+.open-btn:hover {
+    transform: scale(1.2);
+}
+
+.open-btn:active {
+   
+    transform: scale(0.95);
+}
+
+.open-btn:focus {
+    outline: none;
+    
+}
+
+/* Styles for the main content */
+.content {
+    margin-left: 0;
+    padding: 20px;
+    transition: margin-left 0.3s ease;
+}
+
+/* Responsive windows */
+@media (min-width: 600px) {
+    body {
+      max-width: 800px;
+    }
+}
+
+@media (min-width: 400px) {
+  body {
+    max-width: 700px;
+  }
+}
