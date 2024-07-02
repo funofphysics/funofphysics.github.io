@@ -63,28 +63,7 @@ body {
   color: #aaa;
 }
 
-/* Remove underline from link */
-.blog-post-link {
-  text-decoration: none;
-  color: inherit; /* Ensure the link inherits text color from parent elements */
-  display: block; /* Make the anchor tag a block element to wrap the entire div */
-}
 
-/* Optional: Add hover effect for the entire blog post */
-.blog-post-link:hover .blog-post {
-  background-color: #eef6f6; /* Example hover effect */
-  transition: background-color 0.3s ease;
-}
-
-/* Ensure the inner link styles inside .blog-post remain intact */
-.blog-post a {
-  text-decoration: none; /* Remove underline from inner links */
-  color: #007BFF; /* Example link color */
-}
-
-.blog-post a:hover {
-  text-decoration: underline; /* Add underline on hover for inner links */
-}
 
 /* Basic styles for the sidebar */
 .sidebar {
