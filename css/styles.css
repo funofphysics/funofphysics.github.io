@@ -43,6 +43,7 @@ body {
     margin-right: 20px;
     border: solid #aaa 1px;
     border-radius: 2px 0px 6px 16px;
+    padding: 4px;
 }
 .blog-post h2 {
     margin: 0;
