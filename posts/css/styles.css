@@ -53,6 +53,16 @@ body {
     color: #aaa;
 }
 
+.author {
+  font-size: 14px;
+  color: #aaa;
+}
+
+.contact {
+  font-size: 14px;
+  color: #aaa;
+}
+
 /* Basic styles for the sidebar */
 .sidebar {
     height: 100%;
