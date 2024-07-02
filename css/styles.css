@@ -73,6 +73,7 @@ body {
     text-decoration: none;
     color: inherit; /* Ensure the link inherits text color from parent elements */
     display: block; /* Make the anchor tag a block element to wrap the entire div */
+    padding: 1px;
   }
   
   /* Optional: Add hover effect for the entire blog post */
