@@ -7,61 +7,63 @@ body {
     margin-right: auto;
     padding: 0 10px;
     box-sizing: border-box;
-  }
-
-  h1, h2, h3 {
-    color: #333;
-  }
-
-  p {
-    margin-bottom: 1.5em;
-  }
-
-  .math {
-    background-color: #f0f0f0;
-    padding: 10px;
-    border-radius: 5px;
-    margin-bottom: 15px;
-  }
-
-  .diagram {
-    text-align: center;
-    margin-bottom: 20px;
-  }
-  
-  .diagram img .diagram svg {
-    max-width: 100%;
-    height: auto;
-  }
-
-  figcaption {
-    margin-top: 5px;
-    font-style: italic;
-    color: #555;
-  }
-
-  footer {
+}
+.header, .footer {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #ffffff;
+    color: rgb(89, 35, 35);
     text-align: center;
     padding: 20px;
-    background-color: #f0f0f0;
-    margin-top: 40px;
-    border-top: 1px solid #ccc;
-  }
-
-  .date {
+    font-weight: bold;
+}
+.header h1 {
+    margin: 0;
+}
+.footer p {
+    margin: 5px 0;
+    font-size: 14px;
+}
+.blog-container {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.blog-post {
+    border-bottom: 1px solid #ddd;
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+}
+.blog-post img {
+    max-width: 150px;
+    max-height: 150px;
+    margin-right: 20px;
+}
+.blog-post h2 {
+    margin: 0;
+    font-size: 24px;
+}
+.blog-post p {
+    margin: 5px 0;
+    color: #555;
+}
+.blog-post .date {
     font-size: 14px;
     color: #aaa;
-  }
+}
 
-  .author{
+.blog-post .author {
     font-size: 14px;
     color: #aaa;
-  }
+}
 
-  .contact{
+.blog-post .contact {
     font-size: 14px;
     color: #aaa;
-  }
+}
 
 /* Basic styles for the sidebar */
 .sidebar {
@@ -154,11 +156,17 @@ body {
     body {
       max-width: 800px;
     }
+
+    .blog-post{
+        flex-direction: row;
+    }
 }
 
 @media (min-width: 400px) {
   body {
     max-width: 700px;
   }
+  .blog-post{
+    flex-direction: row;
+  }
 }
-
