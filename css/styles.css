@@ -73,7 +73,7 @@ body {
     text-decoration: none;
     color: inherit; /* Ensure the link inherits text color from parent elements */
     display: block; /* Make the anchor tag a block element to wrap the entire div */
-    padding: 1px;
+    padding: 2px;
   }
   
   /* Optional: Add hover effect for the entire blog post */
@@ -178,10 +178,12 @@ body {
     transition: margin-left 0.3s ease;
 }
 
+
 /* Responsive windows */
 @media (min-width: 600px) {
-    body {
-      max-width: 800px;
+    .blog-container {
+        margin: 8px auto;
+        padding: 10px;
     }
 
     .blog-post{
@@ -190,9 +192,10 @@ body {
 }
 
 @media (min-width: 400px) {
-  body {
-    max-width: 700px;
-  }
+    .blog-container {
+        margin: 6px auto;
+        padding: 8px;
+    }
   .blog-post{
     flex-direction: row;
   }
