@@ -109,10 +109,10 @@
   <!--Javascript-->
   <script src="./js/sidebarControl.js"></script>
   <script>
-    /*var disqus_config = function () {
-        this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
-        this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-    };*/
+    var disqus_config = function () {
+        this.page.url = window.location.href;  // Use the current page URL
+        this.page.identifier = window.location.pathname; // Use the page path as the unique identifier
+    };
     
     (function() {  // REQUIRED CONFIGURATION VARIABLE: EDIT THE SHORTNAME BELOW
         var d = document, s = d.createElement('script');
