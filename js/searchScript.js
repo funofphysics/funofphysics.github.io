@@ -1,4 +1,4 @@
-fetch('/path/to/search_index_2023.json')
+fetch('./search_index.json')
       .then(response => response.json())
       .then(data => {
         const posts = data.posts;
