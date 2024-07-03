@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+  <channel>
+    <title>Fun of Physics</title>
+    <link>https://funofphysics.github.io</link>
+    <description>Latest updates and articles in funofphysics site.</description>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 03 Jul 2024 20:55:00 GMT</lastBuildDate>
+
+    <!-- Repeat this item block for each article -->
+    <item>
+      <title>the-schrödinger-equation-01-07-2024</title>
+      <link>https://funofphysics.github.io/posts/2024/07/01/bapon-kar-the-schrödinger-equation-01-07-2024.html</link>
+      <description>Schrodinger Equation in Quantum Mechanics.</description>
+      <pubDate>Mon, 01 Jul 2024 12:00:00 GMT</pubDate>
+    </item>
+    
+    <item>
+      <title>Submission Guidelines for Fun of Physics </title>
+      <link>https://funofphysics.github.io/2024/02/editor-submission-guideline.html</link>
+      <description>The guideline for submitting an article in this website.</description>
+      <pubDate>Tue, 02 Jul 2024 12:00:00 GMT</pubDate>
+    </item>
+    <!-- Add more items as needed -->
+
+  </channel>
+</rss>
