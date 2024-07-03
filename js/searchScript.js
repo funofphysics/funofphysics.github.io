@@ -7,6 +7,7 @@ fetch('./search_index.json')
           this.field('title')
           this.field('content')
           this.field('author')
+          this.field('date')
 
           posts.forEach(post => {
             this.add(post)
