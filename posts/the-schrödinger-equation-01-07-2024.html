@@ -40,14 +40,33 @@
    
 
     <h1>The Schrödinger Equation: Cornerstone of Quantum Mechanics</h1>
-    <div>
-      
+    
+    <div class="social-share">
+      <a href="#" id="share-facebook" target="_blank">
+        <img src="https://img.shields.io/badge/-maker?logo=facebook&logoColor=blue&labelColor=white&color=white
+        " alt="facebook">
+      </a>
+      <a href="#" id="share-twitter" target="_blank">
+        <img src="https://img.shields.io/badge/-maker?logo=x&logoColor=blue&labelColor=white&color=white
+        " alt="x">
+      </a>
+      <a href="#" id="share-linkedin" target="_blank">
+        <img src="https://img.shields.io/badge/-maker?logo=LinkedIn&logoColor=blue&labelColor=white&color=white
+        " alt="LinkedIn">
+      </a>
+      <a href="#" id="share-email" target="_blank">
+        <img src="https://img.shields.io/badge/-maker?logo=gmail&logoColor=blue&labelColor=white&color=white
+        " alt="email">
+      </a>
     </div>
+    
+
     <div >
         <p class="date">Published on: July 1, 2024</p>
         <p class="author">Bapon Kar</p>
         <p class="contact">baponkar@gmail.com</p>
     </div>
+
 
     <div class="topic">
       
@@ -129,6 +148,18 @@
 
   <!--Javascript-->
   <script src="./js/sidebarControl.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      var url = window.location.href;
+      var title = document.title;
+  
+      document.getElementById('share-facebook').href = 'https://www.facebook.com/sharer/sharer.php?u=' + encodeURIComponent(url);
+      document.getElementById('share-twitter').href = 'https://twitter.com/intent/tweet?url=' + encodeURIComponent(url) + '&text=' + encodeURIComponent(title);
+      document.getElementById('share-linkedin').href = 'https://www.linkedin.com/shareArticle?mini=true&url=' + encodeURIComponent(url) + '&title=' + encodeURIComponent(title);
+      document.getElementById('share-email').href = 'mailto:?subject=' + encodeURIComponent(title) + '&body=' + encodeURIComponent(url);
+    });
+  </script>
+  
   
 </body>
 </html>
