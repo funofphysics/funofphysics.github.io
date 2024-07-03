@@ -58,6 +58,15 @@
         <img src="https://img.shields.io/badge/-maker?logo=gmail&logoColor=blue&labelColor=white&color=white
         " alt="email">
       </a>
+      <a href="#" id="share-whatsapp" target="_blank">
+        <img src="https://img.shields.io/badge/-maker?logo=whatsapp&logoColor=blue&labelColor=white&color=white
+        " alt="whatsapp">
+      </a>
+
+      <a href="#" id="share-telegram" target="_blank">
+        <img src="https://img.shields.io/badge/-maker?logo=telegram&logoColor=blue&labelColor=white&color=white
+        " alt="whatsapp">
+      </a>
     </div>
     
 
@@ -157,6 +166,8 @@
       document.getElementById('share-twitter').href = 'https://twitter.com/intent/tweet?url=' + encodeURIComponent(url) + '&text=' + encodeURIComponent(title);
       document.getElementById('share-linkedin').href = 'https://www.linkedin.com/shareArticle?mini=true&url=' + encodeURIComponent(url) + '&title=' + encodeURIComponent(title);
       document.getElementById('share-email').href = 'mailto:?subject=' + encodeURIComponent(title) + '&body=' + encodeURIComponent(url);
+      document.getElementById('share-whatsapp').href = 'https://api.whatsapp.com/send?text=' + encodeURIComponent(title + ' ' + url);
+      document.getElementById('share-telegram').href = 'https://t.me/share/url?url=' + encodeURIComponent(url) + '&text=' + encodeURIComponent(title);
     });
   </script>
   
