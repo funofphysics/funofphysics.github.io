@@ -178,6 +178,27 @@ body {
     transition: margin-left 0.3s ease;
 }
 
+/*style for search window*/
+#search {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+
+  #results div {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+
+  #results div a {
+    text-decoration: none;
+    color: #333;
+  }
+
+  #results div a:hover {
+    text-decoration: underline;
+  }
+
 
 /* Responsive windows */
 @media (min-width: 600px) {

@@ -1,0 +1,22 @@
+{
+    "year": "2024",
+    "posts": [
+      {
+        "id": "0",
+        "title": "The Schrodinger Equation",
+        "content": "The Schrodinger Equation in Quantum Mechanics.",
+        "url": "/posts/2024/07/01/bapon-kar-the-schrodinger-equation.html",
+        "author": "Bapon Kar",
+        "contact": "baponkar@gmail.com",
+        "date": "01-07-2024"
+      },
+      {
+        "id": "1",
+        "title": "Article Submission Guideline",
+        "content": "The Guideline for article submission in Fun Of Physics.",
+        "url": "/posts/2024/07/02/editor-submission-guideline.html",
+        "date": "02-07-2024"
+      }
+    ]
+  }
+  
