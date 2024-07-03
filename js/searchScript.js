@@ -6,6 +6,7 @@ fetch('./search_index.json')
           this.ref('id')
           this.field('title')
           this.field('content')
+          this.field('author')
 
           posts.forEach(post => {
             this.add(post)
@@ -25,12 +26,13 @@ fetch('./search_index.json')
               const resultItem = document.createElement('div');
               resultItem.innerHTML = `
                 <a href="${post.url}">${post.title}</a>
+                <p>${post.author}</p>
                 <p>${post.date}</p>
               `;
               resultsContainer.appendChild(resultItem);
             });
           } else {
-            resultsContainer.innerHTML = '<p>No results found</p>';
+            resultsContainer.innerHTML = '<p>No results found!</p>';
           }
         });
       });
