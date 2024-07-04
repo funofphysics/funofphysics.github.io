@@ -225,6 +225,11 @@ body {
 
 .popup h2 {
     margin-top: 0;
+    color: burlywood;
+}
+
+.popup p {
+    color: red;
 }
 
 .popup .close-btn {
