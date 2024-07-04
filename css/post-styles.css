@@ -67,7 +67,7 @@ body {
   display: flex;
   flex-direction: row;
   padding: 5px;
-  gap: 10px;
+  gap: 20px;
 }
 
 /* Basic styles for the sidebar */
