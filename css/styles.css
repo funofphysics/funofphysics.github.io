@@ -200,6 +200,53 @@ body {
     text-decoration: underline;
   }
 
+/*Style for popup message*/
+
+.popup {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    border-radius: 10px;
+    text-align: center;
+    animation: fadeIn 0.5s;
+}
+
+.popup.show {
+    display: block;
+}
+
+.popup h2 {
+    margin-top: 0;
+}
+
+.popup .close-btn {
+    background-color: #ff5c5c;
+    border: none;
+    color: white;
+    padding: 2px 8px;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: #555;
+    text-shadow: #555;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translate(-50%, -60%);
+    }
+    to {
+        opacity: 1;
+        transform: translate(-50%, -50%);
+    }
+}
+
 
 /* Responsive windows */
 @media (min-width: 600px) {
