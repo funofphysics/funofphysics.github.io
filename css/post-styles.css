@@ -66,7 +66,7 @@ body {
 .social-share{
   display: flex;
   flex-direction: row;
-  padding: 5px;
+  padding: 10px;
   gap: 20px;
 }
 
