@@ -66,8 +66,8 @@ body {
 .social-share{
   display: flex;
   flex-direction: row;
-  padding: 10px;
-  gap: 20px;
+  padding: 5px;
+  gap: 5px;
 }
 
 /* Basic styles for the sidebar */
