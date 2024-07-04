@@ -7,6 +7,8 @@ body {
     margin-right: auto;
     padding: 0 10px;
     box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
 }
 .header, .footer {
     max-width: 800px;
