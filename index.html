@@ -59,12 +59,6 @@
             <img src="./image/fun_of_physics_logo_64x64.png" alt="Logo">
         </div>
 
-        <div class="popup" id="popup">
-            <h2>New address</h2>
-            <p>www.funofphysics.co.in</p>
-            <button class="close-btn" onclick="closePopup()">x</button>
-        </div>
-
         <div class="blog-container" >
             <input type="text" id="search" placeholder="Search...">
             <div id="results"></div>
@@ -138,19 +132,6 @@
     <!--serching-->
     <script src="./js/searchScript.js"></script>
 
-    <!--Popup message-->
-    <script>
-        function showPopup() {
-            document.getElementById('popup').classList.add('show');
-        }
-
-        function closePopup() {
-            document.getElementById('popup').classList.remove('show');
-        }
-
-        // Show the popup after 1 second
-        setTimeout(showPopup, 1000);
-    </script>
 
 
 </body>
