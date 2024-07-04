@@ -63,7 +63,11 @@ body {
   color: #aaa;
 }
 
-
+.social-share{
+  display: flex;
+  flex-direction: row;
+  padding: 5px;
+}
 
 /* Basic styles for the sidebar */
 .sidebar {
